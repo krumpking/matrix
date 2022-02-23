@@ -55,7 +55,7 @@ class _MatrixEffectState extends State<MatrixEffect> {
           });
         },
         speed: 1 + Random().nextDouble() * 9,
-        maxLength: Random().nextInt(10) + 5,
+        maxLength: Random().nextInt(10) + 4,
         key: key1,
       ),
     );
